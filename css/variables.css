@@ -1,0 +1,20 @@
+/* CSS VARIABLES */
+
+:root {
+  --main-color: #68D6E4;
+  --secondary-color: #FC9399;
+  --ternary-color: #313D6F;
+  --bg-blue: #c1d6f3;
+  --main-font: Arial, Helvetica, sans-serif;
+  --secondary-font: Georgia, 'Times New Roman', Times, serif;
+  --shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  --shadow-lg: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+  --danger: #ff4444;
+  --danger-dark: #CC0000;
+  --warning: #ffbb33;
+  --warning-dark: #FF8800;
+  --success: #00C851;
+  --success-dark: #007E33;
+  --info: #33b5e5;
+  --info-dark: #0099CC;
+}
