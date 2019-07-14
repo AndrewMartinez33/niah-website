@@ -13,38 +13,75 @@
       <div id="banner">20% Off All Summer! promo code: SUMMER</div>
       <header class="header">
         <div class="header-logo">
-          <img src="./assets/logo4.svg" alt="niah & company" />
+          <a href="#">
+            <img src="./assets/logo4.svg" alt="niah & company" />
+          </a>
         </div>
         <div class="header-links-container">
-          <div class="header-link">About</div>
+          <div><a class="header-link" href="#">About</a></div>
           <div class="header-link">
             <a href="#" class="btn btn-primary">Shop</a>
           </div>
         </div>
       </header>
       <main class="Site-content">
+        <!-- FEATURED ITEM -->
         <div class="home-featured">
-          <div class="featured-month"><p>August 2019</p></div>
+          <div class="featured-month">
+            <p id="featured-date"></p>
+          </div>
           <div class="featured-item">
             <div class="featured-title-container">
-              <div class="featured-title">Product Blue</div>
-              <div class="featured-tagline">Arthritis wrench thingy</div>
+              <div id="featured-title" class="featured-title"></div>
+              <div id="featured-tagline" class="featured-tagline"></div>
               <div class="featured-btn">
-                <a class="btn btn-secondary" href="#">Buy Now</a>
+                <a id="featured-link" class="btn btn-secondary" href=""
+                  >Buy Now</a
+                >
               </div>
             </div>
             <div class="featured-product">
               <img
+                id="featured-image"
                 class="product-img"
-                src="./assets/product-blue.png"
+                src=""
                 alt="circle"
               />
             </div>
             <div class="product-attributes">
-              <p class="featured-attribute">It has many reviews!</p>
-              <p class="featured-attribute">Comes in a variety of colors!</p>
-              <p class="featured-attribute">Just Buy the damn thing!</p>
-              <a class="attribute-link" href="#">Learn More</a>
+              <p id="featured-attribute1" class="featured-attribute"></p>
+              <p id="featured-attribute2" class="featured-attribute"></p>
+              <p id="featured-attribute3" class="featured-attribute"></p>
+              <a id="featured-learnMore" class="attribute-link" href=""
+                >Learn More</a
+              >
+            </div>
+          </div>
+        </div>
+        <!-- GAS CAP HANDY WRENCH -->
+        <div class="wrench-container">
+          <div class="wrench-sections">
+            <div class="wrench-description">
+              <p>
+                &#8220;The idea for the Gas Cap Handy Wrench came to fruition
+                after we realized that someone close to us was struggling with a
+                task most of us take for granted, filling up at the gas station.
+                We designed our wrench with simplicity and affordability in
+                mind, but most importantly, we just wanted to make your life a
+                little easier.&#8221;
+              </p>
+              <img
+                class="wrench-rating"
+                src="./assets/rating.svg"
+                alt="four-star product rating"
+              />
+            </div>
+            <div class="wrench-img-container">
+              <img
+                class="wrench-image"
+                src="./assets/product-1.png"
+                alt="Gas Cap Handy Wrench - a tool for people with arthritis"
+              />
             </div>
           </div>
         </div>
@@ -56,5 +93,6 @@
         </div>
       </footer>
     </div>
+    <script type="module" src="js/main.js"></script>
   </body>
 </html>
