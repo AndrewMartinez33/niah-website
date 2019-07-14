@@ -11,6 +11,11 @@
 
 .Site-content {
   flex: 1;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .btn {
@@ -33,6 +38,9 @@
 /* HOME PAGE */
 #site-container {
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* BANNER */
@@ -86,6 +94,7 @@
 
 .footer {
   background-color: var(--ternary-color);
+  width: 100%;
 }
 
 .footer-container {
@@ -106,7 +115,6 @@
 
 /* Featured Component */
 .home-featured {
-  padding: 20px 10px;
   border-top: 1px solid var(--bg-blue);
   border-bottom: 1px solid var(--bg-blue);
   position: relative;
@@ -114,14 +122,15 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 50px;
+  width: 100%;
+  background-image: url("../assets/circle.svg");
+  background-position-x: 58%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .featured-item {
   /* height: 350px; */
-  background-image: url("../assets/circle.svg");
-  background-position-x: 58%;
-  background-repeat: no-repeat;
-  background-size: contain;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -132,8 +141,8 @@
 
 .featured-month {
   height: 25px;
-  width: 100px;
-  padding: 2px;
+  width: auto;
+  padding: 10px;
   background-color: gold;
   box-shadow: var(--shadow);
   display: flex;
@@ -199,6 +208,7 @@
   font-family: var(--main-font);
   font-weight: bold;
   font-style: italic;
+  font-size: 1.35rem;
   /* color: var(--ternary-color); */
 }
 
@@ -207,7 +217,56 @@
   font-weight: 600;
   font-size: .9rem;
   margin: 8px 0;
-  color: var(--main-color);
+  color: black;
+}
+
+/* WRENCH SECTION */
+.wrench-container {
+  width: 100%;
+}
+
+.wrench-sections {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrench-description {
+  width: 40%;
+  padding: 0 2rem;
+  font-family: var(--main-font);
+  font-size: 1.35rem;
+  font-style: italic;
+  line-height: 1.4;
+  background-image: url("../assets/left-quote-gradient.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: 55%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.wrench-img-container {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.wrench-image {
+  width: 100%;
+  height: auto;
+
+}
+
+.wrench-rating {
+  width: 175px;
+  height: auto;
 }
 
 /* MEDIA QUERIES */
@@ -231,7 +290,7 @@
 /* Extra large */
 
 @media (min-width: 1200px) {
-  #site-container {
-    width: 1200px;
+  .Site-content {
+    width: 1300px;
   }
 }
