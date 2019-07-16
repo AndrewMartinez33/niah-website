@@ -1,7 +1,7 @@
 export default function featuredItem() {
   const item = {
     productTitle: "Gas Cap Handy Wrench",
-    productTagline: "A Tool Designed For People With Arthritis",
+    productTagline: "A Tool for People with Arthritis",
     productLink: "#",
     productAttributes: {
       attribute1: "Designed to ease the pain of arthritis!",
