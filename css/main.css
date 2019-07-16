@@ -116,7 +116,7 @@
 /* Featured Component */
 .home-featured {
   border-top: 1px solid var(--bg-blue);
-  border-bottom: 1px solid var(--bg-blue);
+  /* border-bottom: 1px solid var(--bg-blue); */
   position: relative;
   display: flex;
   justify-content: center;
@@ -178,10 +178,12 @@
   font-style: italic;
   font-size: 1.15rem;
   font-weight: bold;
+  margin-bottom: 30px;
+
 }
 
 .featured-btn {
-  margin: 25px 0;
+  margin: 15px 0;
 }
 
 .featured-product {
@@ -407,6 +409,10 @@
   text-align: center;
   font-style: italic;
   font-weight: bold;
+}
+
+.blue-btn {
+  background-color: var(--main-color);
 }
 
 /* MEDIA QUERIES */
